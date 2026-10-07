@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Md. Raghibul Islam — Computer Science Student & Developer Portfolio">
+  <title>Md. Raghibul Islam | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header" id="header">
+    <nav class="navbar container">
+      <a href="#home" class="logo">R<span>I</span>.</a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+
+      <div class="nav-menu" id="navMenu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <a class="nav-cv" href="assets/Md_Raghibul_Islam_CV.pdf" download>Download CV</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-text reveal">
+          <p class="eyebrow">HELLO, I'M</p>
+          <h1>Md. Raghibul <span>Islam</span></h1>
+          <h2>Computer Science Student & Developer</h2>
+          <p class="hero-description">
+            I’m interested in building practical web applications, designing clean interfaces,
+            and turning ideas into useful digital solutions.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn primary">View Projects</a>
+            <a href="assets/Md_Raghibul_Islam_CV.pdf" class="btn secondary" download>Download CV</a>
+          </div>
+
+          <div class="socials">
+            <a href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank" rel="noopener">GitHub ↗</a>
+            <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME/" target="_blank" rel="noopener">LinkedIn ↗</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="profile-card">
+            <div class="profile-placeholder">RI</div>
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+            <div class="floating-card card-one">💻 Web Development</div>
+            <div class="floating-card card-two">🎨 UI / UX Design</div>
+            <div class="floating-card card-three">🚀 Student Developer</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">ABOUT ME</p>
+          <h2>Building skills through <span>real projects.</span></h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              I am a Computer Science student interested in software development, web technologies,
+              and interface design. I enjoy learning by creating projects and improving them step by step.
+            </p>
+            <p>
+              One of my academic projects is an <strong>Online Hospital Management System</strong>,
+              planned around the needs of patients, doctors, hospital administrators, and IT/system administrators.
+            </p>
+            <a href="#contact" class="text-link">Let's work together →</a>
+          </div>
+
+          <div class="stats reveal">
+            <div class="stat"><strong>01+</strong><span>Major Project</span></div>
+            <div class="stat"><strong>02</strong><span>Design Stages</span></div>
+            <div class="stat"><strong>∞</strong><span>Learning Mindset</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt-section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">MY TOOLKIT</p>
+          <h2>Skills & <span>technologies.</span></h2>
+          <p>Replace the placeholders below with your exact skills before publishing.</p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal"><span>01</span><h3>Programming</h3><p>C / C++ / Java / Python / JavaScript</p></article>
+          <article class="skill-card reveal"><span>02</span><h3>Web Development</h3><p>HTML / CSS / JavaScript / React / Node.js</p></article>
+          <article class="skill-card reveal"><span>03</span><h3>Database</h3><p>MySQL / MongoDB / Firebase</p></article>
+          <article class="skill-card reveal"><span>04</span><h3>Tools</h3><p>Git / GitHub / VS Code / Figma</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">SELECTED WORK</p>
+          <h2>Projects that <span>matter.</span></h2>
+        </div>
+
+        <div class="filter-buttons reveal">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="web">Web</button>
+          <button class="filter" data-filter="design">Design</button>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card reveal" data-category="web design">
+            <div class="project-image">
+              <img src="images/hospital-system.svg" alt="Online Hospital Management System screenshot"
+                   onerror="this.style.display='none'; this.parentElement.classList.add('image-fallback');">
+              <span>PROJECT 01</span>
+            </div>
+            <div class="project-content">
+              <p class="project-type">WEB APPLICATION</p>
+              <h3>Online Hospital Management System</h3>
+              <p>
+                A hospital management concept designed around Patient, Doctor,
+                Hospital Administrator, and IT/System Administrator stakeholders.
+              </p>
+              <div class="tags"><span>Web</span><span>UI/UX</span><span>Management System</span></div>
+              <a href="#" class="text-link disabled-link" title="Add your GitHub project URL">GitHub →</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="web">
+            <div class="project-image image-fallback"><span>PROJECT 02</span></div>
+            <div class="project-content">
+              <p class="project-type">WEB</p>
+              <h3>Personal Portfolio</h3>
+              <p>Responsive personal portfolio presenting projects, skills, education, contact information and CV.</p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <a href="#" class="text-link disabled-link">GitHub →</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="design">
+            <div class="project-image image-fallback"><span>PROJECT 03</span></div>
+            <div class="project-content">
+              <p class="project-type">UI / UX</p>
+              <h3>Hospital Interface Design</h3>
+              <p>Low-fidelity and high-fidelity interface planning for a hospital management workflow.</p>
+              <div class="tags"><span>Figma</span><span>Wireframe</span><span>Prototype</span></div>
+              <a href="#" class="text-link disabled-link">View Design →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt-section" id="education">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">EDUCATION</p>
+          <h2>My learning <span>journey.</span></h2>
+        </div>
+
+        <div class="timeline reveal">
+          <div class="timeline-item">
+            <span class="timeline-dot"></span>
+            <p class="timeline-date">CURRENT</p>
+            <h3>[University Name]</h3>
+            <p>Bachelor's Degree in Computer Science / [Exact Degree & Department]</p>
+            <small>[Current Year / Semester]</small>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-dot"></span>
+            <p class="timeline-date">PREVIOUS</p>
+            <h3>[College Name]</h3>
+            <p>[Degree / Qualification]</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="section-heading reveal">
+          <p class="eyebrow">GET IN TOUCH</p>
+          <h2>Have an idea? <span>Let's talk.</span></h2>
+          <p>Send a message through the form. Replace the Formspree endpoint before going live.</p>
+          <div class="contact-details">
+            <p>✉ <strong>Email:</strong> [Your Email]</p>
+            <p>⌂ <strong>Location:</strong> [Your Location]</p>
+          </div>
+        </div>
+
+        <!-- Replace YOUR_FORM_ID with your Formspree endpoint ID -->
+        <form class="contact-form reveal" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <label>Name<input type="text" name="name" placeholder="Your name" required></label>
+          <label>Email<input type="email" name="email" placeholder="you@example.com" required></label>
+          <label>Message<textarea name="message" rows="6" placeholder="Tell me about your project..." required></textarea></label>
+          <button type="submit" class="btn primary">Send Message <span>→</span></button>
+          <p class="form-note">Your message will be sent securely through Formspree after you add your endpoint.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Md. Raghibul Islam. All rights reserved.</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+  <script src="js/script.js"></script>
+</body>
+</html>
